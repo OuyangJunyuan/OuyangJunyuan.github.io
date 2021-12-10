@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="http://example.com/2021/12/09/hello-world/"/>
+  <link rel="canonical" href="https://ouyangjunyuan.github.io/project/2021/12/09/hello-world/"/>
   <!-- 渲染优化 -->
   <meta http-equiv='x-dns-prefetch-control' content='on' />
   <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
@@ -16,22 +16,22 @@
   <meta name="HandheldFriendly" content="True" >
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-  <meta content="Auiong Tsunguan" name="application-name">
-  <meta content="Auiong Tsunguan" name="apple-mobile-web-app-title">
+  <meta content="Tsunguan&#39; Blog" name="application-name">
+  <meta content="Tsunguan&#39; Blog" name="apple-mobile-web-app-title">
   <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
   <meta content="telephone=no" name="format-detection">
-  <link rel="preload" href="/css/style.css?time=1639118307961" as="style">
+  <link rel="preload" href="/project/css/style.css?time=1639155284515" as="style">
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
   <!-- 页面元数据 -->
-  <title>Hello World - Auiong Tsunguan</title>
+  <title>Hello World - Tsunguan' Blog</title>
   <meta name="keywords" content="null">
   <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2021/12/09/hello-world/index.html">
-<meta property="og:site_name" content="Auiong Tsunguan">
+<meta property="og:url" content="https://ouyangjunyuan.github.io/project/2021/12/09/hello-world/index.html">
+<meta property="og:site_name" content="Tsunguan&#39; Blog">
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png">
@@ -43,6 +43,7 @@
   <!-- feed -->
   <!-- import meta -->
   <!-- link -->
+    <link rel="shortcut icon" type='image/x-icon' href="https://s2.loli.net/2021/12/10/qpIiAZe9lFWT75H.png">
   <!-- import link -->
   <style>
     /* 首屏样式 */
@@ -704,120 +705,150 @@ button {
   -moz-opacity: 1;
   border-bottom: 2px solid var(--color-site-inner);
 }
-.cover-wrapper.dock .menu,
-.cover-wrapper.featured .menu,
-.cover-wrapper.focus .menu {
-  border-radius: 6px;
-  -webkit-border-radius: 6px;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-mode: 'dark';
+  }
+  :root:not([color-scheme]) {
+    --color-site-body: #000;
+    --color-read-bkg: #222;
+    --color-read-post: #333;
+    --color-site-bg: #222;
+    --color-site-inner: #eee;
+    --color-site-footer: #aaa;
+    --color-card: #333;
+    --color-text: #eee;
+    --color-block: #3a3a3a;
+    --color-codeblock: #343a3c;
+    --color-inlinecode: #d56d28;
+    --color-h1: #eee;
+    --color-h2: #eee;
+    --color-h3: #ddd;
+    --color-h4: #ddd;
+    --color-h5: #ddd;
+    --color-h6: #ddd;
+    --color-p: #bbb;
+    --color-list: #aaa;
+    --color-list-hl: #69dfc4;
+    --color-meta: #888;
+    --color-link: #888;
+  }
+  :root:not([color-scheme]) img {
+    filter: brightness(70%) !important;
+  }
+  :root:not([color-scheme]) #wrapper .title {
+    color: var(--color-meta) !important;
+  }
+  :root:not([color-scheme]) .l_header ul.nav-list-h>li>a,
+  :root:not([color-scheme]) ul.list-v >li>a {
+    color: var(--color-list) !important;
+  }
+  :root:not([color-scheme]) .blur {
+    background: var(--color-site-bg) !important;
+  }
+  :root:not([color-scheme]) .nav-main .u-search-input {
+    background: var(--color-card) !important;
+  }
+  :root:not([color-scheme]) #l_main .article .prev-next>a {
+    background: var(--color-block) !important;
+  }
+  :root:not([color-scheme]) #l_main .article .prev-next>a:hover {
+    background: var(--color-card) !important;
+  }
+  :root:not([color-scheme]) .article blockquote {
+    background: var(--color-block) !important;
+  }
+  :root:not([color-scheme]) .article-title a {
+    color: var(--color-h1) !important;
+  }
+  :root:not([color-scheme]) details>summary {
+    color: var(--color-p) !important;
+    background: var(--color-site-bg) !important;
+  }
+  :root:not([color-scheme]) details {
+    border: 1px solid var(--color-site-bg) !important;
+    background: var(--color-site-bg) !important;
+  }
+  :root:not([color-scheme]) #u-search .modal,
+  :root:not([color-scheme]) #u-search .modal-header,
+  :root:not([color-scheme]) #u-search .modal-body {
+    background: var(--color-card) !important;
+  }
+  :root:not([color-scheme]) #u-search .modal-body .modal-results .result:hover {
+    background: var(--color-block) !important;
+  }
 }
-.cover-wrapper.dock .menu .list-h a,
-.cover-wrapper.featured .menu .list-h a,
-.cover-wrapper.focus .menu .list-h a {
-  -webkit-box-direction: normal;
-  -moz-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  align-items: center;
-  padding: 12px;
-  line-height: 24px;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  border-bottom: none;
-  text-align: center;
-  align-content: flex-end;
-  color: rgba(68,68,68,0.7);
-  font-size: 1.5rem;
+[color-scheme='dark'] {
+  --color-site-body: #000;
+  --color-read-bkg: #222;
+  --color-read-post: #333;
+  --color-site-bg: #222;
+  --color-site-inner: #eee;
+  --color-site-footer: #aaa;
+  --color-card: #333;
+  --color-text: #eee;
+  --color-block: #3a3a3a;
+  --color-codeblock: #343a3c;
+  --color-inlinecode: #d56d28;
+  --color-h1: #eee;
+  --color-h2: #eee;
+  --color-h3: #ddd;
+  --color-h4: #ddd;
+  --color-h5: #ddd;
+  --color-h6: #ddd;
+  --color-p: #bbb;
+  --color-list: #aaa;
+  --color-list-hl: #69dfc4;
+  --color-meta: #888;
+  --color-link: #888;
+}
+[color-scheme='dark'] img {
+  filter: brightness(70%) !important;
+}
+[color-scheme='dark'] #wrapper .title {
+  color: var(--color-meta) !important;
+}
+[color-scheme='dark'] .l_header ul.nav-list-h>li>a,
+[color-scheme='dark'] ul.list-v >li>a {
+  color: var(--color-list) !important;
+}
+[color-scheme='dark'] .blur {
+  background: var(--color-site-bg) !important;
+}
+[color-scheme='dark'] .nav-main .u-search-input {
+  background: var(--color-card) !important;
+}
+[color-scheme='dark'] #l_main .article .prev-next>a {
+  background: var(--color-block) !important;
+}
+[color-scheme='dark'] #l_main .article .prev-next>a:hover {
+  background: var(--color-card) !important;
+}
+[color-scheme='dark'] .article blockquote {
+  background: var(--color-block) !important;
+}
+[color-scheme='dark'] .article-title a {
+  color: var(--color-h1) !important;
+}
+[color-scheme='dark'] details>summary {
+  color: var(--color-p) !important;
+  background: var(--color-site-bg) !important;
+}
+[color-scheme='dark'] details {
+  border: 1px solid var(--color-site-bg) !important;
+  background: var(--color-site-bg) !important;
+}
+[color-scheme='dark'] #u-search .modal,
+[color-scheme='dark'] #u-search .modal-header,
+[color-scheme='dark'] #u-search .modal-body {
+  background: var(--color-card) !important;
+}
+[color-scheme='dark'] #u-search .modal-body .modal-results .result:hover {
+  background: var(--color-block) !important;
 }
 @media screen and (max-width: 500px) {
-  .cover-wrapper.dock .menu .list-h a,
-  .cover-wrapper.featured .menu .list-h a,
-  .cover-wrapper.focus .menu .list-h a {
-    padding: 12px 8px;
-  }
-}
-.cover-wrapper.dock .menu .list-h a i,
-.cover-wrapper.featured .menu .list-h a i,
-.cover-wrapper.focus .menu .list-h a i {
-  margin: 8px;
-}
-.cover-wrapper.dock .menu .list-h a p,
-.cover-wrapper.featured .menu .list-h a p,
-.cover-wrapper.focus .menu .list-h a p {
-  font-size: 0.875rem;
-}
-.cover-wrapper.dock .menu .list-h a.active,
-.cover-wrapper.featured .menu .list-h a.active,
-.cover-wrapper.focus .menu .list-h a.active {
-  background: var(--color-card);
-  backdrop-filter: none;
-}
-.cover-wrapper.dock .menu .list-h a.active i,
-.cover-wrapper.featured .menu .list-h a.active i,
-.cover-wrapper.focus .menu .list-h a.active i,
-.cover-wrapper.dock .menu .list-h a.active i+p,
-.cover-wrapper.featured .menu .list-h a.active i+p,
-.cover-wrapper.focus .menu .list-h a.active i+p {
-  color: #44d7b6;
-}
-.cover-wrapper.dock .menu .list-h a.active img+p,
-.cover-wrapper.featured .menu .list-h a.active img+p,
-.cover-wrapper.focus .menu .list-h a.active img+p {
-  color: var(--color-text);
-}
-.cover-wrapper.dock .menu .list-h a:hover,
-.cover-wrapper.featured .menu .list-h a:hover,
-.cover-wrapper.focus .menu .list-h a:hover {
-  background: var(--color-card);
-}
-.cover-wrapper.dock .top {
-  margin-bottom: 48px;
-}
-.cover-wrapper.dock .menu {
-  background: rgba(255,255,255,0.5);
-  position: absolute;
-  bottom: 0;
-  max-width: 100%;
-}
-.cover-wrapper.dock .menu .list-h {
-  flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -khtml-flex-wrap: nowrap;
-  -moz-flex-wrap: nowrap;
-  -o-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  margin: 4px;
-}
-.cover-wrapper.dock .menu .list-h a+a {
-  margin-left: 4px;
-}
-@media screen and (max-width: 500px) {
-  .cover-wrapper.dock .menu .list-h {
-    overflow-x: scroll;
-  }
-  .cover-wrapper.dock .menu .list-h::-webkit-scrollbar {
-    height: 0;
-    width: 0;
-  }
-  .cover-wrapper.dock .menu .list-h::-webkit-scrollbar-track-piece {
-    background: transparent;
-  }
-  .cover-wrapper.dock .menu .list-h::-webkit-scrollbar-thumb {
-    background: #44d7b6;
-    cursor: pointer;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-  }
-  .cover-wrapper.dock .menu .list-h::-webkit-scrollbar-thumb:hover {
-    background: #ff5722;
-  }
-}
-@supports (backdrop-filter: blur(20px)) {
-  .cover-wrapper.dock .menu {
-    background: rgba(255,255,255,0.5);
-    backdrop-filter: saturate(200%) blur(20px);
+  [color-scheme='dark'] .l_header .m_search {
+    background: var(--color-site-bg) !important;
   }
 }
 @font-face {
@@ -828,7 +859,7 @@ button {
   font-display: swap;
 }
 @font-face {
-  font-family: 'Varela Round';
+  font-family: 'UbuntuMono';
   src: url("https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf");
   font-weight: 'normal';
   font-style: 'normal';
@@ -1656,10 +1687,21 @@ ul.list-v >li>a:hover {
     padding: 0px;
   }
 }
+@media screen and (prefers-color-scheme: dark) and (max-width: 500px) {
+  .l_header .m_search {
+    background: var(--color-site-bg) !important;
+  }
+}
 
   </style>
-  <link rel="stylesheet" href="/css/style.css?time=1639118307961" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.css?time=1639118307961"></noscript>
+  <link rel="stylesheet" href="/project/css/style.css?time=1639155284515" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/project/css/style.css?time=1639155284515"></noscript>
+    <script>
+      var userColorScheme=localStorage.getItem("color-scheme")
+      if(userColorScheme){
+        document.documentElement.setAttribute("color-scheme", userColorScheme);
+      }
+    </script>
   
 <script>
 if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode))
@@ -2095,9 +2137,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 		<div class="nav-main">
       
         
-        <a class="title flat-box" target="_self" href='/'>
+        <a class="title flat-box" target="_self" href='/project/'>
           
-            <img no-lazy class='logo' src='https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png' alt="This is a picture without description" />
+            <img no-lazy class='logo' src='https://s2.loli.net/2021/12/10/qpIiAZe9lFWT75H.png' alt="This is a picture without description" />
           
           
           
@@ -2113,13 +2155,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/" title="博客"
+                href="/project/" title="首页"
                   
                   
                   
-                    active-action="action-home"
+                    active-action="action-project"
                   >
-                  <i class='fas fa-rss fa-fw'></i>博客
+                  <i class='fas fa-rss fa-fw'></i>首页
                 </a>
                 
               </li>
@@ -2130,11 +2172,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/categories/" title="分类"
+                href="/project/categories/" title="分类"
                   
                   
                   
-                    active-action="action-categories"
+                    active-action="action-projectcategories"
                   >
                   <i class='fas fa-folder-open fa-fw'></i>分类
                 </a>
@@ -2147,11 +2189,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/tags/" title="标签"
+                href="/project/tags/" title="标签"
                   
                   
                   
-                    active-action="action-tags"
+                    active-action="action-projecttags"
                   >
                   <i class='fas fa-tags fa-fw'></i>标签
                 </a>
@@ -2164,11 +2206,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/archives/" title="归档"
+                href="/project/archives/" title="归档"
                   
                   
                   
-                    active-action="action-archives"
+                    active-action="action-projectarchives"
                   >
                   <i class='fas fa-archive fa-fw'></i>归档
                 </a>
@@ -2181,11 +2223,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/friends/" title="友链"
+                href="/project/friends/" title="友链"
                   
                   
                   
-                    active-action="action-friends"
+                    active-action="action-projectfriends"
                   >
                   <i class='fas fa-link fa-fw'></i>友链
                 </a>
@@ -2198,16 +2240,53 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/about/" title="关于"
+                href="/project/about/" title="关于"
                   
                   
                   
-                    active-action="action-about"
+                    active-action="action-projectabout"
                   >
                   <i class='fas fa-info-circle fa-fw'></i>关于
                 </a>
                 
               </li>
+            
+          
+          
+            
+            
+              
+                <li>
+                  <a class="menuitem flat-box" href="/" onclick="return false;" title="Click me!" >
+                    <i class='fas fa-compact-disc fa-fw music'></i>背景音乐
+                  </a>
+                  <ul class="list-v">
+                    <li>
+                      <div class="aplayer-container">
+                        
+
+  
+    <meting-js
+      theme='#1BCDFC'
+      autoplay='false'
+      volume='0.7'
+      loop='all'
+      order='list'
+      fixed='false'
+      list-max-height='320px'
+      server='netease'
+      type='playlist'
+      id='3175833810'
+      list-folded='true'>
+    </meting-js>
+  
+
+
+                      </div>
+                    </li>
+                  </ul>
+                <li>
+              
             
           
           
@@ -2233,13 +2312,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/" title="博客"
+                href="/project/" title="首页"
                   
                   
                   
-                    active-action="action-home"
+                    active-action="action-project"
                   >
-                  <i class='fas fa-rss fa-fw'></i>博客
+                  <i class='fas fa-rss fa-fw'></i>首页
                 </a>
                 
               </li>
@@ -2250,11 +2329,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/categories/" title="分类"
+                href="/project/categories/" title="分类"
                   
                   
                   
-                    active-action="action-categories"
+                    active-action="action-projectcategories"
                   >
                   <i class='fas fa-folder-open fa-fw'></i>分类
                 </a>
@@ -2267,11 +2346,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/tags/" title="标签"
+                href="/project/tags/" title="标签"
                   
                   
                   
-                    active-action="action-tags"
+                    active-action="action-projecttags"
                   >
                   <i class='fas fa-tags fa-fw'></i>标签
                 </a>
@@ -2284,11 +2363,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/archives/" title="归档"
+                href="/project/archives/" title="归档"
                   
                   
                   
-                    active-action="action-archives"
+                    active-action="action-projectarchives"
                   >
                   <i class='fas fa-archive fa-fw'></i>归档
                 </a>
@@ -2301,11 +2380,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/friends/" title="友链"
+                href="/project/friends/" title="友链"
                   
                   
                   
-                    active-action="action-friends"
+                    active-action="action-projectfriends"
                   >
                   <i class='fas fa-link fa-fw'></i>友链
                 </a>
@@ -2318,16 +2397,22 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/about/" title="关于"
+                href="/project/about/" title="关于"
                   
                   
                   
-                    active-action="action-about"
+                    active-action="action-projectabout"
                   >
                   <i class='fas fa-info-circle fa-fw'></i>关于
                 </a>
                 
               </li>
+            
+          
+            
+              
+            
+              
             
           
             
@@ -2348,63 +2433,54 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="none" class='cover-wrapper post dock' style="display: none;">
+      <div id="none" class='cover-wrapper post search' style="display: none;">
         
-  <div class='cover-bg lazyload placeholder' data-bg="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture"></div>
+  <div class='cover-bg lazyload placeholder' data-bg="https://s2.loli.net/2021/12/10/2iCOIJd1R3uXmfN.jpg"></div>
 
 <div class='cover-body'>
   <div class='top'>
     
+      <img no-lazy class='logo' src='https://s2.loli.net/2021/12/10/qpIiAZe9lFWT75H.png' alt="This is a picture without description" />
     
-      <p class="title">Volantis</p>
     
+      <p class="title">Au1ong</p>
+    
+    
+      <p class="subtitle">「Keep moving.Stay happy!」</p>
     
   </div>
   <div class='bottom'>
+    
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <input type="text" class="input u-search-input" placeholder=" 你是故意找岔儿是不是😅" />
+          <i class="icon fas fa-search fa-fw"></i>
+        </form>
+      </div>
+    
     <div class='menu navigation'>
       <div class='list-h'>
         
           
-            <a href="/v4/getting-started/"
+            <a href="/project/archives/"
               
               
-              active-action="action-v4getting-started">
-              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg' alt="This is a picture without description" ><p>文档</p>
+              active-action="action-projectarchives">
+              <i class='fas fa-archive fa-fw'></i><p>文档</p>
             </a>
           
-            <a href="/faqs/"
+            <a href="/project/about/"
               
               
-              active-action="action-faqs">
-              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg' alt="This is a picture without description" ><p>帮助</p>
+              active-action="action-projectabout">
+              <i class='fas fa-info-circle fa-fw'></i><p>关于</p>
             </a>
           
-            <a href="/examples/"
+            <a target="_blank" rel="noopener" href="https://github.com/OuyangJunyuan"
               
               
-              active-action="action-examples">
-              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg' alt="This is a picture without description" ><p>示例</p>
-            </a>
-          
-            <a href="/contributors/"
-              
-              
-              active-action="action-contributors">
-              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg' alt="This is a picture without description" ><p>社区</p>
-            </a>
-          
-            <a href="/archives/"
-              
-              
-              active-action="action-archives">
-              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg' alt="This is a picture without description" ><p>博客</p>
-            </a>
-          
-            <a target="_blank" rel="noopener" href="https://github.com/volantis-x/hexo-theme-volantis/"
-              
-              
-              active-action="action-https:githubcomvolantis-xhexo-theme-volantis">
-              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg' alt="This is a picture without description" ><p>源码</p>
+              active-action="action-https:githubcomOuyangJunyuan">
+              <i class='fab fa-github fa-fw'></i><p>github</p>
             </a>
           
         
@@ -2424,9 +2500,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
 <div id="l_main" class=''>
   <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow article-type-post" id="post" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/09/hello-world/">
+  <link itemprop="mainEntityOfPage" href="https://ouyangjunyuan.github.io/project/2021/12/09/hello-world/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Auiong Tsunguan">
+    <meta itemprop="name" content="Tsunguan' Blog">
   </span>
   
 
@@ -2518,7 +2594,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               
-                <p>本文永久链接是：<a href=http://example.com/2021/12/09/hello-world/>http://example.com/2021/12/09/hello-world/</a></p>
+                <p>本文永久链接是：<a href=https://ouyangjunyuan.github.io/project/2021/12/09/hello-world/>https://ouyangjunyuan.github.io/project/2021/12/09/hello-world/</a></p>
               
             
           </blockquote>
@@ -2557,7 +2633,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2021/12/09/hello-world/&title=Hello World - Auiong Tsunguan&summary="
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://ouyangjunyuan.github.io/project/2021/12/09/hello-world/&title=Hello World - Tsunguan' Blog&summary="
           
           >
           
@@ -2569,7 +2645,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2021/12/09/hello-world/&title=Hello World - Auiong Tsunguan&summary="
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://ouyangjunyuan.github.io/project/2021/12/09/hello-world/&title=Hello World - Tsunguan' Blog&summary="
           
           >
           
@@ -2581,7 +2657,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2021/12/09/hello-world/&title=Hello World - Auiong Tsunguan&summary="
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://ouyangjunyuan.github.io/project/2021/12/09/hello-world/&title=Hello World - Tsunguan' Blog&summary="
           
           >
           
@@ -2614,16 +2690,27 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     <div class="prev-next">
       
-        <a class='prev' href='/2021/12/10/Learn-Hexo/'>
+        <a class='prev' href='/project/2021/12/10/Learn-Hexo/'>
           <p class='title'><i class="fas fa-chevron-left" aria-hidden="true"></i>Learn Hexo</p>
           <p class='content'>test markdown pic
+🐑🐑
+
+
+
+
+
+
+
+
+
+
 
 
 </p>
         </a>
       
       
-        <a class='next' href='/2021/12/09/My-First-Post/'>
+        <a class='next' href='/project/2021/12/09/My-First-Post/'>
           <p class='title'>My First Post<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
           <p class='content'>hello world
 
@@ -2643,7 +2730,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
   <article class="post white-box reveal shadow" id="comments">
     <span hidden>
-      <meta itemprop="discussionUrl" content="/2021/12/09/hello-world/index.html#comments">
+      <meta itemprop="discussionUrl" content="/project/2021/12/09/hello-world/index.html#comments">
     </span>
     <p ct><i class='fas fa-comments'></i> 评论</p>
     
@@ -2760,6 +2847,22 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="aplayer-container">
           
 
+  
+    <meting-js
+      theme='#1BCDFC'
+      autoplay='false'
+      volume='0.7'
+      loop='all'
+      order='list'
+      fixed='false'
+      list-max-height='320px'
+      server='netease'
+      type='playlist'
+      id='3175833810'
+      list-folded='true'>
+    </meting-js>
+  
+
 
         </div>
       
@@ -2842,8 +2945,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <script>
   volantis.message = (title, message, option = {}, done = null) => {
     if (typeof iziToast === "undefined") {
-      volantis.css('/css/message.css?time=1639118307961')
-      volantis.js('/js/message.js?time=1639118307961', () => {
+      volantis.css('/project/css/message.css?time=1639155284515')
+      volantis.js('/project/js/message.js?time=1639155284515', () => {
         tozashMessage(title, message, option, done);
       });
     } else {
@@ -2888,8 +2991,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.question = (title, message, option = {}, success = null, cancel = null, done = null) => {
     if (typeof iziToast === "undefined") {
-      volantis.css('/css/message.css?time=1639118307961')
-      volantis.js('/js/message.js?time=1639118307961', () => {
+      volantis.css('/project/css/message.css?time=1639155284515')
+      volantis.js('/project/js/message.js?time=1639155284515', () => {
         tozashQuestion(title, message, option, success, cancel, done);
       });
     } else {
@@ -2948,8 +3051,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     }
     
     if (typeof iziToast === "undefined") {
-      volantis.css('/css/message.css?time=1639118307961')
-      volantis.js('/js/message.js?time=1639118307961', () => {
+      volantis.css('/project/css/message.css?time=1639155284515')
+      volantis.js('/project/js/message.js?time=1639155284515', () => {
         hideMessage(done);
       });
     } else {
@@ -3036,15 +3139,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           
     <li class="menuLoad-Content">
-      <a class='vlts-menu fix-cursor-default' href=https://volantis.js.org/faqs/
+      <a class='vlts-menu fix-cursor-default' 
         
         
         
-        
-          id="https:volantisjsorgfaqs"
         
       >
-        <i class='fa fa-question fa-fw'></i> 常见问题
+        <i class='fa fa-archive fa-fw'></i> 归档
       </a>
     </li>
   
@@ -3053,15 +3154,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           
     <li class="menuLoad-Content">
-      <a class='vlts-menu fix-cursor-default' href=https://volantis.js.org/examples/
+      <a class='vlts-menu fix-cursor-default' 
         
         
         
-        
-          id="https:volantisjsorgexamples"
         
       >
-        <i class='fa fa-rss fa-fw'></i> 示例博客
+        <i class='fa fa-info-circle fa-fw'></i> 关于
       </a>
     </li>
   
@@ -3070,53 +3169,15 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           
     <li class="menuLoad-Content">
-      <a class='vlts-menu fix-cursor-default' href=https://volantis.js.org/contributors/
+      <a class='vlts-menu fix-cursor-default' href=https://github.com/OuyangJunyuan
         
         
         
         
-          id="https:volantisjsorgcontributors"
-        
-      >
-        <i class='fa fa-fan fa-spin fa-fw'></i> 加入社区
-      </a>
-    </li>
-  
-        
-      
-        
-          <hr class="menuLoad-Content">
-        
-      
-        
-          
-    <li class="menuLoad-Content">
-      <a class='vlts-menu fix-cursor-default' href=https://github.com/volantis-x/volantis-docs/
-        
-        
-        
-        
-          id="https:githubcomvolantis-xvolantis-docs"
+          id="https:githubcomOuyangJunyuan"
         
       >
-        <i class='fa fa-code-branch fa-fw'></i> 本站源码
-      </a>
-    </li>
-  
-        
-      
-        
-          
-    <li class="menuLoad-Content">
-      <a class='vlts-menu fix-cursor-default' href=https://github.com/volantis-x/hexo-theme-volantis/
-        
-        
-        
-        
-          id="https:githubcomvolantis-xhexo-theme-volantis"
-        
-      >
-        <i class='fa fa-code-branch fa-fw'></i> 主题源码
+        <i class='fab fa-github fa-fw'></i> github
       </a>
     </li>
   
@@ -3151,12 +3212,54 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
       
         
+          <div id="menuMusic">
+            <li class='music name menuOption-Content'>
+              <p class='nav music-title fix-cursor-default'></p>
+            </li>
+            <li class='music ctrl'>
+              <a class='nav icon-only backward fix-cursor-default' onclick='volantis.rightMenu.aplayerBackward()'><i class='fa fa-step-backward fa-fw '></i></a>
+              <a class='nav icon-only toggle fix-cursor-default' onclick='volantis.rightMenu.aplayerToggle()'><i class='fa fa-play fa-fw '></i></a>
+              <a class='nav icon-only forward fix-cursor-default' onclick='volantis.rightMenu.aplayerForward()'><i class='fa fa-step-forward fa-fw '></i></a>
+            </li>
+            <li class='music volume'>
+              <div class='nav volume'>
+                <div class="aplayer-volume-bar-wrap">
+                  <div class="aplayer-volume-bar fix-cursor-pointer">
+                    <div class="aplayer-volume"></div>
+                    <i class='left fa fa-volume-off fa-fw'></i>
+                    <i class='right fa fa-volume-up fa-fw'></i>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </div>
+        
       
     </ul>
   </div>
   <script>
     volantis.rightMenu = {};
     volantis.rightMenu.faicon = 'fa' || 'fa';
+    
+      volantis.rightMenu.music = true;
+      volantis.rightMenu.aplayerBackward = () => {
+        event.stopPropagation();
+        if (MainAPlayer.aplayerBackward) {
+          MainAPlayer.aplayerBackward();
+        }
+      }
+      volantis.rightMenu.aplayerToggle = () => {
+        event.stopPropagation();
+        if (MainAPlayer.aplayerToggle) {
+          MainAPlayer.aplayerToggle();
+        }
+      }
+      volantis.rightMenu.aplayerForward = () => {
+        event.stopPropagation();
+        if (MainAPlayer.aplayerForward) {
+          MainAPlayer.aplayerForward();
+        }
+      }
     
     
       volantis.rightMenu.defaultStyles = true;
@@ -3165,14 +3268,111 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
     
-      volantis.APlayerController = {};
-    
-    volantis.js('/js/rightMenu.js?time=1639118307961')
+    volantis.js('/project/js/rightMenu.js?time=1639155284515')
   </script>
 
 
 
 <!-- rightmenu要在darkmode之前（ToggleButton） darkmode要在comments之前（volantis.dark.push）-->
+
+  <script>
+const rootElement = document.documentElement;
+const darkModeStorageKey = "color-scheme";
+const rootElementDarkModeAttributeName = "color-scheme";
+const setLS = (k, v) => {
+    localStorage.setItem(k, v);
+};
+const removeLS = (k) => {
+    localStorage.removeItem(k);
+};
+const getLS = (k) => {
+    return localStorage.getItem(k);
+};
+const getModeFromCSSMediaQuery = () => {
+  return window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+};
+const resetRootDarkModeAttributeAndLS = () => {
+  rootElement.removeAttribute(rootElementDarkModeAttributeName);
+  removeLS(darkModeStorageKey);
+};
+const validColorModeKeys = {
+  dark: true,
+  light: true,
+};
+const applyCustomDarkModeSettings = (mode) => {
+  const currentSetting = mode || getLS(darkModeStorageKey);
+  getCustomDarkMode();
+  if (currentSetting === getModeFromCSSMediaQuery()) {
+    resetRootDarkModeAttributeAndLS();
+  } else if (validColorModeKeys[currentSetting]) {
+    rootElement.setAttribute(rootElementDarkModeAttributeName, currentSetting);
+  } else {
+    resetRootDarkModeAttributeAndLS();
+  }
+};
+const invertDarkModeObj = {
+  dark: "light",
+  light: "dark",
+};
+/**
+ * get target mode
+ */
+ const getCustomDarkMode = () => {
+  let currentSetting = getLS(darkModeStorageKey);
+  if (validColorModeKeys[currentSetting]) {
+    currentSetting = invertDarkModeObj[currentSetting];
+  } else if (currentSetting === null) {
+    currentSetting = invertDarkModeObj[getModeFromCSSMediaQuery()];
+  } else {
+    return;
+  }
+  if(currentSetting=="dark"){
+    volantis.dark.mode="light";
+  }else{
+    volantis.dark.mode="dark";
+  }
+  // console.log(volantis.dark.mode)
+};
+const toggleCustomDarkMode = () => {
+  let currentSetting = getLS(darkModeStorageKey);
+  if (validColorModeKeys[currentSetting]) {
+    currentSetting = invertDarkModeObj[currentSetting];
+  } else if (currentSetting === null) {
+    currentSetting = invertDarkModeObj[getModeFromCSSMediaQuery()];
+  } else {
+    return;
+  }
+  setLS(darkModeStorageKey, currentSetting);
+  return currentSetting;
+};
+/**
+ * 暗黑模式触发器
+ */
+volantis.dark.toggle=()=>{
+  const mode = toggleCustomDarkMode();
+  applyCustomDarkModeSettings(mode);
+  // 使用 volantis.dark.push 方法传入volantis.dark.toggle回调函数 参见layout/_partial/scripts/global.ejs
+  volantis.dark.method.toggle.start();
+}
+/**
+ * bind event for toggle button
+ */
+
+function bindToggleButton() {
+  var btn= document.querySelectorAll("#wrapper .toggle-mode-btn,#rightmenu-wrapper .toggle-mode-btn")
+  btn.forEach(function (e) {
+    volantis.dom.$(e).on('click',volantis.dark.toggle);
+  })
+}
+applyCustomDarkModeSettings();
+document.addEventListener("DOMContentLoaded", ()=>{
+  volantis.requestAnimationFrame(bindToggleButton)
+});
+volantis.pjax.push(bindToggleButton);
+</script>
+
 
 
 
@@ -3181,19 +3381,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("/js/plugins/sites.js?time=1639118307961")
+        volantis.js("/project/js/plugins/sites.js?time=1639155284515")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("/js/plugins/friends.js?time=1639118307961")
+        volantis.js("/project/js/plugins/friends.js?time=1639155284515")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("/js/plugins/contributors.js?time=1639118307961")
+        volantis.js("/project/js/plugins/contributors.js?time=1639155284515")
       }
     
   };
@@ -3254,6 +3454,96 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
+  <script>
+  volantis.APlayerController = {}; // 音乐播放控制 - All
+  volantis.APlayerController.id = '3175833810';  // 设定全局音乐播放ID
+  volantis.APlayerController.volume = '0.7';
+  volantis.css("https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css");
+  (async () => {
+    // APlayer 需要在  MetingJS 之前加载
+    await volantis.js("https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/js/APlayer.mini.js")
+    await volantis.js("https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js")
+  
+    // 右键 music 需要在 APlayer  MetingJS 之后加载
+    await volantis.js('/project/js/aplayer.js?time=1639155284518')
+    volantis.APlayerController.music = true;
+  
+  })();
+
+  function SetAPlayerPlugin(){
+    let Metings = document.querySelectorAll('meting-js');
+    if (Metings.length === 0) {
+      volantis.APlayerController.status = undefined;
+      
+      if(typeof MainAPlayer === 'undefined'){
+        MainAPlayer = {};
+        MainAPlayer.Aplayer = {};
+      }
+      
+      return;
+    };
+    if (Metings[0].aplayer && Metings[0].aplayer.on) {
+      // improve the accessibility https://web.dev/button-name/
+      document.querySelectorAll(".aplayer-icon-menu").forEach(e=>{
+        e.setAttribute("aria-label","Aplayer Menu")
+      })
+      // message see: /layout/_plugins/message/script.ejs
+      
+        try {
+          setTimeout(() => {
+            Metings.forEach((item, index) => {
+              const aplayerItem = item.aplayer; if(!aplayerItem) return;
+              const rightMenuAplayer = item.meta.id === volantis.APlayerController.id && volantis.APlayerController.music;
+              if(rightMenuAplayer) MainAPlayer.checkAPlayer();
+              if(aplayerItem.events.events.play.every(item => {return item.name !== 'messagePlay'})) {
+                aplayerItem.on('play', function messagePlay() {
+                  let index = aplayerItem.list.index;
+                  let title = aplayerItem.list.audios[index].title;
+                  let artist = aplayerItem.list.audios[index].artist;
+                  setTimeout(() => {
+                    volantis.message('音乐通知', title + ' - ' + artist, {
+                      icon: 'fas fa-play',
+                      transitionIn: 'flipInX',
+                      transitionOut: 'flipOutX'
+                    });
+                  }, 100)
+                  if(rightMenuAplayer && volantis.APlayerController) volantis.APlayerController.status = 'play';
+                });
+              }
+              if(aplayerItem.events.events.pause.every(item => {return item.name !== 'messagePause'})) {
+                aplayerItem.on('pause', function messagePause() {
+                  let index = aplayerItem.list.index;
+                  let title = aplayerItem.list.audios[index].title;
+                  let artist = aplayerItem.list.audios[index].artist;
+                  setTimeout(() => {
+                    // 歌曲播放结束也会触发 pause 事件，为了避免错误提示，等待一会儿
+                    if(aplayerItem.paused) {
+                      volantis.message('音乐通知', title + ' - ' + artist, {
+                        icon: 'fas fa-pause',
+                        transitionIn: 'flipInX',
+                        transitionOut: 'flipOutX'
+                      });
+                    }
+                  }, 100)
+                  if(rightMenuAplayer && volantis.APlayerController) volantis.APlayerController.status = 'pause';
+                });
+              }
+            });
+          }, 500)
+        } catch (error) { console.error(error); }
+      
+    }else{
+      volantis.requestAnimationFrame(SetAPlayerPlugin)
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", ()=>{
+    SetAPlayerPlugin();
+  });
+  volantis.pjax.push(SetAPlayerPlugin);
+</script>
+
+
 
 
   <script>
@@ -3309,20 +3599,20 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-<script src="/js/app.js?time=1639118307961.js"></script>
+<script src="/project/project/js/app.js?time=1639155284515.js"></script>
 
 
 <!-- optional -->
 
   <script>
-  const SearchServiceDataPathRoot = ("/" || "/").endsWith("/")
-    ? "/" || "/"
-    : "//" || "/";
+  const SearchServiceDataPathRoot = ("/project/" || "/").endsWith("/")
+    ? "/project/" || "/"
+    : "/project//" || "/";
   const SearchServiceDataPath = SearchServiceDataPathRoot + "content.json";
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("/js/search/hexo.js?time=1639118307961");
+    return volantis.js("/project/js/search/hexo.js?time=1639155284515");
   }
 
   function loadSearchService() {
@@ -3569,7 +3859,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Auiong Tsunguan","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Auiong Tsunguan","image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"Auiong Tsunguan"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2021/12/09/hello-world/","name":"Hello World"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Hello World","description":"","datePublished":"2021-12-09T15:56:12.369Z","dateModified":"2021-12-09T15:56:12.369Z","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2021/12/09/hello-world/"},"author":{"@type":"Person","name":"Auiong Tsunguan","image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"Auiong Tsunguan","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2021/12/09/hello-world/","wordCount":0,"image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Tsunguan' Blog","url":"https://ouyangjunyuan.github.io/project/project/","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Auiong Tsunguan","image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png"},"url":"https://ouyangjunyuan.github.io/project/project/","sameAs":["https://github.com/volantis-x"],"description":"stories and life"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://ouyangjunyuan.github.io/project/project/","name":"Tsunguan' Blog"}},{"@type":"ListItem","position":3,"item":{"@id":"https://ouyangjunyuan.github.io/project/project/2021/12/09/hello-world/","name":"Hello World"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Hello World","description":"","datePublished":"2021-12-09T15:56:12.369Z","dateModified":"2021-12-09T15:56:12.369Z","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https://ouyangjunyuan.github.io/project/2021/12/09/hello-world/"},"author":{"@type":"Person","name":"Auiong Tsunguan","image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png"},"url":"https://ouyangjunyuan.github.io/project/project/"},"publisher":{"@type":"Organization","name":"Tsunguan' Blog","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://ouyangjunyuan.github.io/project/2021/12/09/hello-world/","wordCount":0,"image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 <!-- more -->
