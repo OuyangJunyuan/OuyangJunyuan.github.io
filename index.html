@@ -20,7 +20,7 @@
   <meta content="Tsunguan&#39; Blog" name="apple-mobile-web-app-title">
   <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
   <meta content="telephone=no" name="format-detection">
-  <link rel="preload" href="/css/style.css?time=1639224491899" as="style">
+  <link rel="preload" href="/css/style.css?time=1639235537418" as="style">
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
@@ -256,103 +256,6 @@ button {
   position: relative;
   overflow: hidden;
   margin-bottom: -100px;
-}
-.cover-wrapper .cover-bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-}
-.cover-wrapper .cover-bg.lazyload:not(.loaded) {
-  opacity: 0;
-  -webkit-opacity: 0;
-  -moz-opacity: 0;
-}
-.cover-wrapper .cover-bg.lazyload.loaded {
-  animation-delay: 0s;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
-  animation-name: fadeIn;
-}
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
-}
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
-}
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    filter: blur(12px);
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -khtml-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-  }
 }
 .cover-wrapper .cover-body {
   z-index: 1;
@@ -703,6 +606,71 @@ button {
   -moz-opacity: 1;
   border-bottom: 2px solid var(--color-site-inner);
 }
+.cover-wrapper #parallax-window {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+.parallax-mirror {
+  animation-delay: 0s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  animation-name: fadeIn;
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: blur(12px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --color-mode: 'dark';
@@ -987,7 +955,7 @@ button {
   height: 64px;
 }
 .l_header .nav-sub {
-  max-width: 1080px;
+  max-width: 1300px;
   margin: auto;
 }
 .l_header .nav-sub .title {
@@ -1569,7 +1537,7 @@ ul.list-v >li>a:hover {
   right: calc(100% - 0.5 * 16px);
 }
 #wrapper {
-  max-width: 1080px;
+  max-width: 1300px;
   margin: auto;
 }
 @media screen and (min-width: 2048px) {
@@ -1619,11 +1587,11 @@ ul.list-v >li>a:hover {
 }
 @media screen and (max-width: 2048px) {
   .l_header {
-    max-width: 1112px;
-    left: calc((100% - 1112px) * 0.5);
+    max-width: 1332px;
+    left: calc((100% - 1332px) * 0.5);
   }
 }
-@media screen and (max-width: 1112px) {
+@media screen and (max-width: 1332px) {
   .l_header {
     left: 0;
     border-radius: 0;
@@ -1692,8 +1660,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/css/style.css?time=1639224491899" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.css?time=1639224491899"></noscript>
+  <link rel="stylesheet" href="/css/style.css?time=1639235537418" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.css?time=1639235537418"></noscript>
     <script>
       var userColorScheme=localStorage.getItem("color-scheme")
       if(userColorScheme){
@@ -2433,7 +2401,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
       <div id="full" class='cover-wrapper  search' style="display: ;">
         
-  <div class='cover-bg lazyload placeholder' data-bg="https://s2.loli.net/2021/12/11/P8osRanT5FrtHuC.jpg"></div>
+  <div id="parallax-window"></div>
 
 <div class='cover-body'>
   <div class='top'>
@@ -2502,6 +2470,16 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       
         
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
         
           
         
@@ -2523,9 +2501,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
   
   
-    <span hidden>
-      <meta itemprop="image" content="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png">
-    </span>
+    <div class='headimg-div'>
+      <a class='headimg-a' href="/2021/12/10/Learn-Hexo/">
+        <img itemprop="image" class='headimg' alt="Learn Hexo" src='https://s2.loli.net/2021/12/10/qpIiAZe9lFWT75H.png'/>
+      </a>
+    </div>
   
   
     
@@ -2537,23 +2517,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
   <div class='md' itemprop="articleBody">
     
-      
-        test markdown pic
-🐑🐑
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
+      <p>这是摘要</p>
     
   </div>
   
@@ -2561,6 +2525,18 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div>
         
         <time itemprop="dateCreated datePublished" datetime="2021-12-10T14:22:19+08:00">2021-12-10</time>
+        
+          <span class="dot"></span>
+          <a class="category-link" href="/categories/category1/">category1</a><span class="sep"></span><a class="category-link" href="/categories/category1/category2/">category2</a>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/category1/" itemprop="url"><span itemprop="name">category1</span></a>
+            </span>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/category1/category2/" itemprop="url"><span itemprop="name">category2</span></a>
+            </span>
+          
         
       </div>
       
@@ -2826,12 +2802,12 @@ Qu...
           <li><a class="flat-box"
             title="/categories/category1/" href="/categories/category1/"
             active-action="action-categoriescategory1"
-            ><div class='name'>category1</div><div class='badge'>(1)</div></a></li>
+            ><div class='name'>category1</div><div class='badge'>(2)</div></a></li>
         
           <li><a class="flat-box child"
             title="/categories/category1/category2/" href="/categories/category1/category2/"
             active-action="action-categoriescategory1category2"
-            ><div class='name'>category2</div><div class='badge'>(1)</div></a></li>
+            ><div class='name'>category2</div><div class='badge'>(2)</div></a></li>
         
           <li><a class="flat-box"
             title="/categories/category3/" href="/categories/category3/"
@@ -2865,134 +2841,27 @@ Qu...
 
 
     <div class='content'>
-      <a href="/tags/tag1/" style="font-size: 14px; color: #999">tag1</a> <a href="/tags/tag2/" style="font-size: 14px; color: #999">tag2</a>
+      <a href="/tags/tag1/" style="font-size: 14px; color: #999">tag1</a> <a href="/tags/tag2/" style="font-size: 14px; color: #999">tag2</a> <a href="/tags/test-tag/" style="font-size: 14px; color: #999">test tag</a>
     </div>
   </section>
 
 
   
 
-  
-    
-    
-
-<section class="widget list shadow desktop mobile pjax">
-  
-  <header>
-    
-      <a href='/wiki/'><i class="fas fa-chevron-left fa-fw" aria-hidden="true"></i><span class='name'>Hexo Themes</span></a>
-    
-  </header>
-
-
-  <div class='content'>
-    <ul class="list entry navigation">
-      
-        <li><a class="flat-box" title="/wiki/volantis/" href="/wiki/volantis/"
-          
-          
-          active-action="action-wikivolantis"
-          >
-          <div class='name'>
-            
-            Volantis for Hexo
-          </div>
-          
-        </a></li>
-      
-        <li><a class="flat-box" title="/wiki/resume/" href="/wiki/resume/"
-          
-          
-          active-action="action-wikiresume"
-          >
-          <div class='name'>
-            
-            Resume for Hexo
-          </div>
-          
-        </a></li>
-      
-    </ul>
-  </div>
-</section>
-
-  
-
-  
-    
-    
-
-<section class="widget grid shadow desktop mobile pjax">
-  
-  <header>
-    
-      <a target="_blank" rel="noopener" href='https://github.com/volantis-x/hexo-theme-volantis'><i class="fas fa-headset fa-fw" aria-hidden="true"></i><span class='name'>联系开发者</span></a>
-    
-  </header>
-
-
-  <div class='content'>
-    <div class="grid navigation fixed">
-      
-        <a class="flat-box" target="_blank" rel="noopener" href="https://github.com/volantis-x/hexo-theme-volantis/issues/"
-          
-          
-          active-action="action-https:githubcomvolantis-xhexo-theme-volantisissues">
-          
-            <i class="fas fa-bug fa-fw" aria-hidden="true"></i>
-          
-          反馈BUG
-        </a>
-      
-        <a class="flat-box" target="_blank" rel="noopener" href="https://github.com/volantis-x/hexo-theme-volantis/issues/"
-          
-          
-          active-action="action-https:githubcomvolantis-xhexo-theme-volantisissues">
-          
-            <i class="fas fa-question-circle fa-fw" aria-hidden="true"></i>
-          
-          疑问求助
-        </a>
-      
-        <a class="flat-box" target="_blank" rel="noopener" href="https://github.com/volantis-x/hexo-theme-volantis/issues/"
-          
-          
-          active-action="action-https:githubcomvolantis-xhexo-theme-volantisissues">
-          
-            <i class="fas fa-lightbulb fa-fw" aria-hidden="true"></i>
-          
-          提个建议
-        </a>
-      
-    </div>
-  </div>
-</section>
-
-  
-
-  
-    
-    
-
-<section class="widget page shadow desktop mobile pjax">
-  
-
-  <div class='content'>
-    
-    
-      
-    
-      
-    
-      
-    
-  </div>
-</section>
-
-  
-
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -3159,8 +3028,8 @@ Qu...
   <script>
   volantis.message = (title, message, option = {}, done = null) => {
     if (typeof iziToast === "undefined") {
-      volantis.css('/css/message.css?time=1639224491899')
-      volantis.js('/js/message.js?time=1639224491899', () => {
+      volantis.css('/css/message.css?time=1639235537418')
+      volantis.js('/js/message.js?time=1639235537418', () => {
         tozashMessage(title, message, option, done);
       });
     } else {
@@ -3205,8 +3074,8 @@ Qu...
 
   volantis.question = (title, message, option = {}, success = null, cancel = null, done = null) => {
     if (typeof iziToast === "undefined") {
-      volantis.css('/css/message.css?time=1639224491899')
-      volantis.js('/js/message.js?time=1639224491899', () => {
+      volantis.css('/css/message.css?time=1639235537418')
+      volantis.js('/js/message.js?time=1639235537418', () => {
         tozashQuestion(title, message, option, success, cancel, done);
       });
     } else {
@@ -3265,8 +3134,8 @@ Qu...
     }
     
     if (typeof iziToast === "undefined") {
-      volantis.css('/css/message.css?time=1639224491899')
-      volantis.js('/js/message.js?time=1639224491899', () => {
+      volantis.css('/css/message.css?time=1639235537418')
+      volantis.js('/js/message.js?time=1639235537418', () => {
         hideMessage(done);
       });
     } else {
@@ -3353,10 +3222,12 @@ Qu...
         
           
     <li class="menuLoad-Content">
-      <a class='vlts-menu fix-cursor-default' 
+      <a class='vlts-menu fix-cursor-default' href=/archives/
         
         
         
+        
+          id="archives"
         
       >
         <i class='fa fa-archive fa-fw'></i> 归档
@@ -3368,10 +3239,12 @@ Qu...
         
           
     <li class="menuLoad-Content">
-      <a class='vlts-menu fix-cursor-default' 
+      <a class='vlts-menu fix-cursor-default' href=/about/
         
         
         
+        
+          id="about"
         
       >
         <i class='fa fa-info-circle fa-fw'></i> 关于
@@ -3482,7 +3355,7 @@ Qu...
     
     
     
-    volantis.js('/js/rightMenu.js?time=1639224491899')
+    volantis.js('/js/rightMenu.js?time=1639235537418')
   </script>
 
 
@@ -3595,19 +3468,19 @@ volantis.pjax.push(bindToggleButton);
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("/js/plugins/sites.js?time=1639224491899")
+        volantis.js("/js/plugins/sites.js?time=1639235537418")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("/js/plugins/friends.js?time=1639224491899")
+        volantis.js("/js/plugins/friends.js?time=1639235537418")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("/js/plugins/contributors.js?time=1639224491899")
+        volantis.js("/js/plugins/contributors.js?time=1639235537418")
       }
     
   };
@@ -3679,7 +3552,7 @@ volantis.pjax.push(bindToggleButton);
     await volantis.js("https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js")
   
     // 右键 music 需要在 APlayer  MetingJS 之后加载
-    await volantis.js('/js/aplayer.js?time=1639224491901')
+    await volantis.js('/js/aplayer.js?time=1639235537420')
     volantis.APlayerController.music = true;
   
   })();
@@ -3813,7 +3686,7 @@ volantis.pjax.push(bindToggleButton);
 
 
 
-<script src="/js/app.js?time=1639224491899.js"></script>
+<script src="/js/app.js?time=1639235537418.js"></script>
 
 
 <!-- optional -->
@@ -3826,7 +3699,7 @@ volantis.pjax.push(bindToggleButton);
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("/js/search/hexo.js?time=1639224491899");
+    return volantis.js("/js/search/hexo.js?time=1639235537418");
   }
 
   function loadSearchService() {
@@ -3888,6 +3761,59 @@ volantis.pjax.push(bindToggleButton);
 
 
 
+
+
+  <script>
+  let imgs = ["https://s2.loli.net/2021/12/11/P8osRanT5FrtHuC.jpg"];
+  let index = 0;
+  let IntervalParallax = null;
+
+  function parallax(){
+    let ParallaxWindow = document.querySelector("#parallax-window");
+    
+      ParallaxWindow = document.querySelector("html");
+    
+    Parallax.window = ParallaxWindow;
+    Parallax.options.fade = 1500;
+    Parallax.cache = 1;
+    next_parallax();
+    Parallax.init();
+    if (imgs.length>1) {
+      IntervalParallax = setInterval(function () {
+        next_parallax();
+      }, '10000');
+    }
+  }
+
+  function next_parallax() {
+    if (typeof Parallax == "undefined") {
+      return
+    }
+    
+    if (imgs.length>=1) {
+      Parallax.options.src = imgs[index % imgs.length];
+      Parallax.start();
+      index++;
+      if (Parallax.cache) {
+        fetch(imgs[index % imgs.length] +"?t=" + new Date().getTime());
+        if (index == imgs.length) {
+          Parallax.cache = 0;
+        }
+      }
+    }
+  }
+  var runningOnBrowser = typeof window !== "undefined";
+  var isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
+  if (!isBot) {
+    volantis.js('/js/parallax.js?time=1639235537418').then(()=>{
+      parallax()
+    })
+    volantis.pjax.send(()=>{
+      clearInterval(IntervalParallax)
+    },"clearIntervalParallax");
+    volantis.pjax.push(parallax);
+  }
+</script>
 
 
 
@@ -4150,5 +4076,5 @@ volantis.pjax.push(bindToggleButton);
   <!-- Custom Files bodyEnd begin-->
   
   <!-- Custom Files bodyEnd end-->
-  </body>
+  <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/hibiki.model.json"},"display":{"position":"left","width":200,"height":400},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>

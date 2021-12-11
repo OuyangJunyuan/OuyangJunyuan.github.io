@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Learn Hexo</title>
+    <url>/2021/12/10/Learn-Hexo/</url>
+    <content><![CDATA[<p>这是摘要</p>
+<span id="more"></span>
+
+
+
+<p>这是正文</p>
+<p>$\alpha$<br>$$<br>\beta<br>$$</p>
+<p>test markdown pic</p>
+<p>🐑🐑</p>
+<p><img src="https://s2.loli.net/2021/12/10/7dhPE4Cx2VDvl5B.jpg" class="lazyload" data-srcset="https://s2.loli.net/2021/12/10/7dhPE4Cx2VDvl5B.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="example pic"></p>
+<p><img src="https://s2.loli.net/2021/12/10/2iCOIJd1R3uXmfN.jpg" class="lazyload" data-srcset="https://s2.loli.net/2021/12/10/2iCOIJd1R3uXmfN.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="mmexport1610430983424"></p>
+<p><img src="https://s2.loli.net/2021/12/11/oYvq9uP4WgAdpB3.png" class="lazyload" data-srcset="https://s2.loli.net/2021/12/11/oYvq9uP4WgAdpB3.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="知乎 (1)"></p>
+<p><img src="https://s2.loli.net/2021/12/11/91ROkjpEMHvP8he.png" class="lazyload" data-srcset="https://s2.loli.net/2021/12/11/91ROkjpEMHvP8he.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="知乎 (3)"></p>
+<p><img src="https://s2.loli.net/2021/12/11/ahv15SOXT9EUJbV.png" class="lazyload" data-srcset="https://s2.loli.net/2021/12/11/ahv15SOXT9EUJbV.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="知乎 (2)"></p>
+<p><img src="https://s2.loli.net/2021/12/10/r3lvL6i5Nde7GPZ.png" class="lazyload" data-srcset="https://s2.loli.net/2021/12/10/r3lvL6i5Nde7GPZ.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="羊"></p>
+<p><img src="https://s2.loli.net/2021/12/10/fRaB8yQDgshr7Y1.png" class="lazyload" data-srcset="https://s2.loli.net/2021/12/10/fRaB8yQDgshr7Y1.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="小绵羊"></p>
+<p><img src="https://s2.loli.net/2021/12/10/qpIiAZe9lFWT75H.png" class="lazyload" data-srcset="https://s2.loli.net/2021/12/10/qpIiAZe9lFWT75H.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="绵阳"></p>
+<p><img src="https://s2.loli.net/2021/12/10/FwrM5uRDTkti126.png" class="lazyload" data-srcset="https://s2.loli.net/2021/12/10/FwrM5uRDTkti126.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="小绵羊"></p>
+<p><img src="https://s2.loli.net/2021/12/10/L31xkctNjyGQVoZ.jpg" class="lazyload" data-srcset="https://s2.loli.net/2021/12/10/L31xkctNjyGQVoZ.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="wallhaven-9mg17w"></p>
+<p><img src="https://s2.loli.net/2021/12/11/A8vVRJM2CdfHOyL.png" class="lazyload" data-srcset="https://s2.loli.net/2021/12/11/A8vVRJM2CdfHOyL.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="屏幕截图"></p>
+<p><img src="/home/ou/.config/Typora/typora-user-images/image-20211211214543550.png" class="lazyload" data-srcset="/home/ou/.config/Typora/typora-user-images/image-20211211214543550.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211211214543550"></p>
+<h1 id="卡通人物"><a href="#卡通人物" class="headerlink" title="卡通人物"></a>卡通人物</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure>
+
+<p>然后选一个 <a href="https://github.com/xiazeyu/live2d-widget-models">卡通人物</a> 安装对应包,推荐live2d-widget-model-shizuku,live2d-widget-model-koharu, live2d-widget-model-haruto.<a href="https://blog.csdn.net/wang_123_zy/article/details/87181892">预览</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install packagename</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="标签学习"><a href="#标签学习" class="headerlink" title="标签学习"></a>标签学习</h1><p><a href="https://volantis.js.org/v5/tag-plugins/">参考</a></p>
+<p>可以认为标签是写markdown的一种拓展,可以渲染出更好看和更多的东西</p>
+<div class="note info"><p>[note info]</p></div>
+
+<p><img src="https://s2.loli.net/2021/12/11/7pnO8xdzWeijcfg.png" class="lazyload" data-srcset="https://s2.loli.net/2021/12/11/7pnO8xdzWeijcfg.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211211230924175"></p>
+
+]]></content>
+      <categories>
+        <category>category1</category>
+        <category>category2</category>
+      </categories>
+      <tags>
+        <tag>test tag</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My First Post</title>
+    <url>/2021/12/09/My-First-Post/</url>
+    <content><![CDATA[<p>hello world</p>
+
+]]></content>
+      <categories>
+        <category>category1</category>
+        <category>category2</category>
+        <category>category3</category>
+        <category>category4</category>
+      </categories>
+      <tags>
+        <tag>tag1</tag>
+        <tag>tag2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/12/09/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><div class="story post-story"><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+</div>]]></content>
+  </entry>
+</search>
