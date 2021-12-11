@@ -9,10 +9,12 @@
 
 
 <p>这是正文</p>
+<p>看这个文档<a href="https://volantis.js.org/v5/getting-started/">https://volantis.js.org/v5/getting-started/</a></p>
 <p>$\alpha$<br>$$<br>\beta<br>$$</p>
 <p>test markdown pic</p>
 <p>🐑🐑</p>
-<p><img src="https://s2.loli.net/2021/12/10/7dhPE4Cx2VDvl5B.jpg" class="lazyload" data-srcset="https://s2.loli.net/2021/12/10/7dhPE4Cx2VDvl5B.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="example pic"></p>
+<img src="https://s2.loli.net/2021/12/10/7dhPE4Cx2VDvl5B.jpg" class="lazyload" data-srcset="https://s2.loli.net/2021/12/10/7dhPE4Cx2VDvl5B.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="example pic" style="zoom:50%;" />
+
 <p><img src="https://s2.loli.net/2021/12/10/2iCOIJd1R3uXmfN.jpg" class="lazyload" data-srcset="https://s2.loli.net/2021/12/10/2iCOIJd1R3uXmfN.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="mmexport1610430983424"></p>
 <p><img src="https://s2.loli.net/2021/12/11/oYvq9uP4WgAdpB3.png" class="lazyload" data-srcset="https://s2.loli.net/2021/12/11/oYvq9uP4WgAdpB3.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="知乎 (1)"></p>
 <p><img src="https://s2.loli.net/2021/12/11/91ROkjpEMHvP8he.png" class="lazyload" data-srcset="https://s2.loli.net/2021/12/11/91ROkjpEMHvP8he.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="知乎 (3)"></p>
@@ -36,6 +38,9 @@
 <div class="note info"><p>[note info]</p></div>
 
 <p><img src="https://s2.loli.net/2021/12/11/7pnO8xdzWeijcfg.png" class="lazyload" data-srcset="https://s2.loli.net/2021/12/11/7pnO8xdzWeijcfg.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20211211230924175"></p>
+<p>这个gallery,也有用,用来展示多个图片</p>
+<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery 参数" data-group='分组'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper/abstract/B18FCBB3-67FD-48CC-B4F3-457BA145F17A.jpeg' data-fancybox='分组' data-caption='图片描述'><img fancybox itemprop="contentUrl" src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper/abstract/B18FCBB3-67FD-48CC-B4F3-457BA145F17A.jpeg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper/abstract/B18FCBB3-67FD-48CC-B4F3-457BA145F17A.jpeg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图片描述"></a><span class='image-caption'>图片描述</span></div><br><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper/abstract/67239FBB-E15D-4F4F-8EE8-0F1C9F3C4E7C.jpeg' data-fancybox='分组' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper/abstract/67239FBB-E15D-4F4F-8EE8-0F1C9F3C4E7C.jpeg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper/abstract/67239FBB-E15D-4F4F-8EE8-0F1C9F3C4E7C.jpeg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a><span></span></div></div>
+
 
 ]]></content>
       <categories>
